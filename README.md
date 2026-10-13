@@ -1,27 +1,29 @@
-# ✨ Prosjektnavn (Python)
+# ✨ Prosjektnavn
 
-Instansier prosjektet ved å først kjøre `uv sync` og deretter `uv venv`
+Skriv en kort beskrivelse av prosjektet. Hva har du laget, og hva kan det brukes til?
 
 > [!IMPORTANT]
-> **README.md – endre denne filen!**
+> **README.md - husk å tilpasse denne filen!**
 >
-> Behold `.gitignore` og `.gitattributes` i prosjektet.
+> README-en skal presentere prosjektet og forklare hvordan det settes opp og kjøres.
 
-> [!NOTE]
-> Denne filen er en plassholder. Skriv en kort beskrivelse av prosjektet her.
->
-> Som et minimum bør en README inneholde:
->
-> - En kort presentasjon av prosjektet
-> - Hvordan prosjektet installeres
-> - Hvordan prosjektet kjøres
->
-> Legg gjerne til annen informasjon som er relevant for prosjektet.
+## 🚀 Kom i gang
 
-## 📁 Viktige filer i repoet
+Beskriv hva som kreves for å kjøre prosjektet, hvordan det settes opp, og hvordan programmet startes.
+
+## 🛠️ Teknologi
+
+Beskriv kort hvilke språk, biblioteker eller verktøy du har brukt.
+
+## 📁 Prosjektfiler
+
+- `README.md` - presentasjon og dokumentasjon av prosjektet.
+- `PLAN.md` - planlegging og fremdrift.
+- `REFLEKSJON.md` - refleksjon over prosjektet og arbeidet.
+- `src/*` - kildekoden din
 
 > [!TIP]
-> Disse filene er en del av grunnoppsettet og bør beholdes:
+> Behold `.gitignore` og `.gitattributes` i prosjektet.
 >
-> - `.gitignore` – hindrer at midlertidige filer, lokale miljøer og hemmeligheter blir lagt til i Git.
-> - `.gitattributes` – sørger blant annet for konsistent håndtering av linjeskift på tvers av operativsystemer.
+> - `.gitignore` - hindrer at unødvendige filer legges til i Git.
+> - `.gitattributes` - bidrar til konsistent håndtering av filer på tvers av operativsystemer.
