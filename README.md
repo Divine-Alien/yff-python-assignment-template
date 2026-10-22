@@ -1,29 +1,25 @@
-# ✨ Prosjektnavn
+## How to Run the Program
 
-Skriv en kort beskrivelse av prosjektet. Hva har du laget, og hva kan det brukes til?
+To run this program, follow these steps:
 
-> [!IMPORTANT]
-> **README.md - husk å tilpasse denne filen!**
->
-> README-en skal presentere prosjektet og forklare hvordan det settes opp og kjøres.
+1. Create a `.env` file in the project's root directory.
 
-## 🚀 Kom i gang
+2. Create an OpenWeather account and generate an API key:  
+   https://home.openweathermap.org/api_keys
 
-Beskriv hva som kreves for å kjøre prosjektet, hvordan det settes opp, og hvordan programmet startes.
+3. Add your API key to the `.env` file:
+   API_KEY=xxxxxxxxxxxxxxxx
 
-## 🛠️ Teknologi
+4. Activate the virtual environment by running the appropriate command from the project's root directory:
 
-Beskriv kort hvilke språk, biblioteker eller verktøy du har brukt.
-
-## 📁 Prosjektfiler
-
-- `README.md` - presentasjon og dokumentasjon av prosjektet.
-- `PLAN.md` - planlegging og fremdrift.
-- `REFLEKSJON.md` - refleksjon over prosjektet og arbeidet.
-- `src/*` - kildekoden din
-
-> [!TIP]
-> Behold `.gitignore` og `.gitattributes` i prosjektet.
->
-> - `.gitignore` - hindrer at unødvendige filer legges til i Git.
-> - `.gitattributes` - bidrar til konsistent håndtering av filer på tvers av operativsystemer.
+   **Windows (PowerShell):**
+   powershell
+   .\venv\Scripts\Activate.ps1
+   
+   **macOS/Linux:**
+   bash
+   source venv/bin/activate
+   
+5. Start the program:
+   bash
+   python src/main.py
