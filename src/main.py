@@ -6,7 +6,7 @@ import os
 
 from get_weather import get_weather
 from get_time import get_time
-# from test_info import weather # TODO
+from error_window import pop_error_window
 
 load_dotenv()
 
@@ -35,7 +35,7 @@ def show_info():
     if cur_city != city.get():
         search_city()
         if weather["cod"] == "404":
-            ttk.Label(mainframe, text="City not found!", foreground="red").grid(column=3, row=2, sticky=(W, E))
+            pop_error_window()
             return
 
     show_prev_next_buttons()
