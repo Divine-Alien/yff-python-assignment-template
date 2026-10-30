@@ -80,6 +80,9 @@ window.title("The Weather Forcast")
 mainframe = ttk.Frame(window, padding=(4, 4, 8, 8))
 mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
 
+window_icon = PhotoImage(file='src/icons/cloudy.png')
+window.iconphoto(True, window_icon)
+
 city = Variable()
 cityLine = ttk.Entry(mainframe, width=7, textvariable=city)
 cityLine.grid(column=3, row=1, sticky=(W, E))
