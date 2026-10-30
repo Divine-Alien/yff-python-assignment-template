@@ -71,8 +71,6 @@ def next_page():
         show_info()
     print(cur_page)
 
-
-
 window = Tk()
 window.geometry("420x360")
 window.resizable(False, False)
